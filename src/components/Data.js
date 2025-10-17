@@ -1,6 +1,6 @@
 import hero1 from '../assets/hero1.jpg';
 import hero3 from '../assets/hero3.jpg';
-import img1 from '../assets/img1.JPG';
+
 import img2 from '../assets/img2.JPG';
 import img3 from '../assets/img3.JPG';
 import img4 from '../assets/img4.JPG';
@@ -97,7 +97,7 @@ export const data=[
         id:10,
         name:"T-Shirt",
         description:'this is perfect for summer season',
-        img:img1,
+        img:img9,
         price:900,
         category:"men"
     },
@@ -146,7 +146,7 @@ export const data=[
         id:1,
         name:"T-shirt",
         description:'this is perfect for cold season',
-        img:img1,
+        img:img4,
         price:1000,
         category:"men"
     },
