@@ -37,7 +37,7 @@ const Collection = () => {
         filterItem()
     },[category,product,input])
     return (
-        <div className='py-[70px] min-h-[100vh] md:flex'>
+        <div className='py-[70px] min-h-[100vh] z-10 md:flex'>
             <div className={`w-[15%] fixed hidden md:block top-[90px] h-[100vh] border-r-2 px-[30px] ${showSearch?"py-[60px]":"py-[20px]"}`}>
                 <h1 className='text-[28px] font-bold text-blue-600'>Filter</h1>
                 <div className='flex flex-col gap-[8px] '>
@@ -51,7 +51,7 @@ const Collection = () => {
                 </div>
             </div>
             <div className='md:w-[85%] w-[100%] min-h-[100vh] md:ml-[15%] py-[20px]'>
-                <div className='md:hidden h-[100%] fixed w-[100%] z-[9999]'>
+                <div className='md:hidden h-[100%] fixed w-[100%] '>
                     <div className='relative w-[100%]'>
                          <div className='px-[8px]'>
                         <h1 className='text-[25px] font-semibold text-blue-500'>filter</h1>

@@ -19,13 +19,13 @@ const ProductDetail = () => {
     getProductDeatil()
   },[productId,product])
   return (
-    <div className='w-[100%] h-[100vh] bg-[#f9f2f2] py-[100px]'>
+    <div className='w-[100%] min-h-[100vh] bg-[#f9f2f2] py-[100px] pb-[200px] md:pb-0 '>
       <h1 className='text-center font-bold text-blue-700 text-[30px] mb-[30px]'>product datails</h1>
-          <div className='w-[80%]  mx-auto bg-white flex py-[50px]'>
-            <div className='w-[50%]'>
-                 <img className='w-[70%] h-[75%] object-fill mx-auto rounded-lg shadow-lg shadow-gray-400' src={selectedproduct?.img} alt="" />
+          <div className='md:w-[80%] w-[100%]  mx-auto bg-white gap-[30px] md:gap-0 flex py-[50px] flex-col md:flex-row'>
+            <div className='md:w-[50%] w-[100%]'>
+                 <img className='md:w-[70%] w-[95%] h-[300px]  md:h-[75%] object-fill mx-auto rounded-lg shadow-lg shadow-gray-400' src={selectedproduct?.img} alt="" />
             </div>
-            <div className='w-[30%]'>
+            <div className='md:w-[30%] w-[90%] mx-auto'>
                 <h1 className='text-[26px] font-semibold text-black'>{selectedproduct.name}</h1>
                 <h2 className='text-[17px] mt-[20px]'>{selectedproduct.description}Experience the perfect blend of comfort, style, and quality . Crafted from soft, breathable, and durable</h2>
                 <div className='flex mt-[20px] text-yellow-300'>

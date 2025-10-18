@@ -73,7 +73,7 @@ const Navbar = () => {
                     </form>
 
                 </div>}
-                <div className={`w-[100%] flex flex-col z-[9999] items-center px-[20px] py-[40px]  gap-[20px] transition-all duration-300 ease-out  h-[250px] bg-blue-400 md:hidden absolute top-[55px] ${toggle?"right-0":"right-[-100%]"} font-semibold text-white`}>
+                <div className={`w-[100%] flex flex-col z-[9999] items-center px-[20px] py-[40px]  gap-[20px] backdrop-blur-2xl transition-all duration-300 ease-out  h-[250px] bg-blue-400 md:hidden absolute top-[55px] ${toggle?"right-0":"right-[-100%]"} font-semibold text-white`}>
                               <Link to={'/'} className='relative group' onClick={()=>setToggle(false)}>Home
                             <span className='w-0 h-[2px] bg-white rounded-full absolute transition-all duration-200 -bottom-1 left-0 group-hover:w-[100%]'></span>
                         </Link>
