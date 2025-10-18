@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux'
 const OurTrendingProduct = () => {
   const {product}=useSelector((state)=>state.product)
   return (
-    <div className='w-[100] min-h-[100vh] '>
+    <div className='w-[100%] min-h-[100vh] '>
         <motion.div
            initial={{opacity:0,y:200}}
                     whileInView={{opacity:1,y:0}}
